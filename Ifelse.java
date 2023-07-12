@@ -6,7 +6,7 @@ public class Ifelse{
         //IF STATEMENT
         System.out.println("If else statement");
         if (18 < age)
-        {s
+        {
             System.out.println("you are able for voting");
         }
 

@@ -53,7 +53,7 @@ public class operator
         int E=45;
         E-=78;
         System.out.println("subtract assignment operator E-=" + E);
-s
+
 
         //Logical Operators
         System.out.println("\nLogical Operators");
