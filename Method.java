@@ -1,4 +1,8 @@
-                  //METHOD OF JAVA
+import java.security.spec.EncodedKeySpec;
+
+import javax.lang.model.util.ElementScanner14;
+
+//METHOD OF JAVA
 public class Method
 {
     static void mymethod()
@@ -8,13 +12,20 @@ public class Method
 
     static void met(int a)
     {
-        System.out.println("this is " + a + " method");
+        if(a<18)
+        {
+           System.out.println("Able to voting");
+        }
+    else
+          {
+            System.out.println("not able to voting");
 
-    }
+            }
+        }
     public static void main(String[] args)
     {
         mymethod();
-        met(2);
+        met(22);
     }
 
 }
